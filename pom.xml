@@ -54,7 +54,6 @@
 
 	<!-- 依赖项定义 -->
 	<dependencies>
-
 		<!-- SPRING begin -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -98,7 +97,6 @@
 			<artifactId>spring-tx</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-
 		<!-- spring orm -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -110,7 +108,6 @@
 			<artifactId>spring-jdbc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-
 		<!-- bean validate -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -118,7 +115,7 @@
 			<version>${validator.version}</version>
 		</dependency>
 		<!-- SPRING end -->
-
+		
 		<!-- AOP begin -->
 		<dependency>
 			<groupId>org.aspectj</groupId>
@@ -136,9 +133,8 @@
 			<version>3.1</version>
 		</dependency>
 		<!-- AOP end -->
-
+		
 		<!-- PERSISTENCE begin -->
-
 		<!-- MyBatis -->
 		<dependency>
 			<groupId>org.mybatis</groupId>
@@ -150,14 +146,12 @@
 			<artifactId>mybatis-spring</artifactId>
 			<version>${mybatis-spring.version}</version>
 		</dependency>
-
 		<!-- connection pool -->
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid</artifactId>
 			<version>${druid.version}</version>
 		</dependency>
-
 		<!-- jdbc driver -->
 		<dependency>
 			<groupId>mysql</groupId>
@@ -384,14 +378,12 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-
 		<!-- google java lib -->
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
 			<version>${guava.version}</version>
 		</dependency>
-
 		<!-- jackson json -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
@@ -413,31 +405,26 @@
 			<artifactId>jackson-module-jaxb-annotations</artifactId>
 			<version>${jackson.version}</version>
 		</dependency>
-
 		<!-- fastjson json <dependency> <groupId>com.alibaba</groupId> <artifactId>fastjson</artifactId> 
 			<version>${fastjson.version}</version> </dependency> -->
-
 		<!-- xstream xml -->
 		<dependency>
 			<groupId>com.thoughtworks.xstream</groupId>
 			<artifactId>xstream</artifactId>
 			<version>${xstream.version}</version>
 		</dependency>
-
 		<!-- pojo copy -->
 		<dependency>
 			<groupId>net.sf.dozer</groupId>
 			<artifactId>dozer</artifactId>
 			<version>${dozer.version}</version>
 		</dependency>
-
 		<!-- freemarker engine -->
 		<dependency>
 			<groupId>org.freemarker</groupId>
 			<artifactId>freemarker</artifactId>
 			<version>${freemarker.version}</version>
 		</dependency>
-
 		<!-- email -->
 		<dependency>
 			<groupId>javax.mail</groupId>
@@ -449,7 +436,6 @@
 			<artifactId>activation</artifactId>
 			<version>1.1.1</version>
 		</dependency>
-
 		<!-- poi office -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
@@ -466,14 +452,12 @@
 			<artifactId>poi-ooxml-schemas</artifactId>
 			<version>${poi.version}</version>
 		</dependency>
-
 		<!-- image util -->
 		<dependency>
 			<groupId>com.drewnoakes</groupId>
 			<artifactId>metadata-extractor</artifactId>
 			<version>2.6.2</version>
 		</dependency>
-
 		<!-- 条形码、二维码生成 -->
 		<dependency>
 			<groupId>com.google.zxing</groupId>
@@ -483,9 +467,8 @@
 		<dependency>
 			<groupId>com.google.zxing</groupId>
 			<artifactId>javase</artifactId>
-			<version>2.2</version>war
+			<version>2.2</version>
 		</dependency>
-
 		<!-- 中文分词 -->
 		<dependency>
 			<groupId>org.wltea</groupId>
@@ -551,7 +534,6 @@
 			<artifactId>javax.servlet</artifactId> </exclusion> <exclusion> <groupId>org.eclipse.jetty.orbit</groupId> 
 			<artifactId>org.apache.taglibs.standard.glassfish</artifactId> </exclusion> 
 			</exclusions> </dependency> -->
-
 	</dependencies>
 
 	<build>
@@ -742,6 +724,9 @@
 				<version>2.5.1</version>
 			</plugin>
 		</plugins>
+		
+		<finalName>${project.artifactId}-${project.version}</finalName>
+		
 	</build>
 
 	<profiles>

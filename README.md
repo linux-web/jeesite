@@ -110,7 +110,7 @@ JeeSite 提供了常用工具进行封装，包括日志工具、缓存工具、
 1. 有时出现文字乱码：修改Tomcat的server.xml文件的Connector项，增加URIEncoding="UTF-8";
 2. 用一段时间提示内存溢出，请修改JVM参数：-Xmx512m -XX:MaxPermSize=256m;
 3. 为什么新建菜单后看不到新建的菜单？因为授权问题，菜单管理只允许最高管理员账号管理（最高管理员默认账号：thinkgem 密码：admin）;
-4. 提示OA_NOTIFY,OA_NOTIFY_RECORD,OA_TEST_AUDIT，SYS_USER等不存在时，需要从oa_notify,oa_notify_record,oa_test_audit,sys_user小写数据表中复制以下即可，大小写数据表复制。
+4. 提示数据表不存在时，需要将oa_notify,oa_notify_record改成大写OA_NOTIFY,OA_NOTIFY_RECORD，将OA_TEST_AUDIT改成小写oa_test_audit，将sys_user复制一份大写SYS_USER数据表。
 
 ## 更多文档
 
