@@ -5,17 +5,17 @@ rem  *
 rem  * Author: ThinkGem@163.com
 rem  */
 echo.
-echo [信息] 重建您的数据库并导入初始数据。
+echo [Info] Importing init tables.
 echo.
 pause
 echo.
-echo [信息] 此操作会清空您的数据表和数据，并恢复初始状态。
+echo [Info] Then clear your jeesite database.
 echo.
-echo [信息] 确认继续吗？否则请关闭窗口。
+echo [Info] Yes?
 echo.
 pause
 echo.
-echo [信息] 您真的确认继续吗？否则请关闭窗口。
+echo [Info] Again Yes?
 echo.
 pause
 echo.

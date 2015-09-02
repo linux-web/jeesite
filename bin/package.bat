@@ -5,7 +5,7 @@ rem  *
 rem  * Author: ThinkGem@163.com
 rem  */
 echo.
-echo [信息] 打包工程，生成war包文件。
+echo [Info] Packge project and generate war file.
 echo.
 pause
 echo.

@@ -5,7 +5,7 @@ rem  *
 rem  * Author: ThinkGem@163.com
 rem  */
 echo.
-echo [信息] 生成Eclipse工程文件。
+echo [Info] Generating Eclipse project file.
 echo.
 pause
 echo.

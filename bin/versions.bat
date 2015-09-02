@@ -5,24 +5,24 @@ rem  *
 rem  * Author: ThinkGem@163.com
 rem  */
 echo.
-echo [信息] 更新项目版本号。
+echo [Info] Updating project version.
 echo.
 rem pause
 echo.
 
 cd %~dp0
 
-set /p new=请输入新版本号：
+set /p new=Please input new version number.
 echo.
 
 pause
 echo.
 cd ..
 
-rem 更新pom版本号
+rem Update the Version of pom
 call mvn versions:set -DnewVersion=%new%
 
-rem 替换 jeesite.properties 中的版本号
+rem Substitute the Version of jeesite.properties
 echo.
 set f=%cd%\src\main\resources\jeesite.properties
 echo [INFO] Update %f%

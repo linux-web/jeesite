@@ -6,7 +6,7 @@ rem  * Author: ThinkGem@163.com
 rem  */
 title %cd%
 echo.
-echo [信息] 使用Jetty插件运行工程。
+echo [Info] Using Jetty plugin to run project.
 echo.
 rem pause
 rem echo.

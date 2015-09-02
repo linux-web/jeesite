@@ -6,7 +6,7 @@ rem  * Author: ThinkGem@163.com
 rem  */
 title %cd%
 echo.
-echo [信息] 使用Tomcat6插件运行工程。
+echo [Info] Using Tomcat6 plugin to run project.
 echo.
 rem pause
 rem echo.

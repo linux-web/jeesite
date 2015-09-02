@@ -5,7 +5,7 @@ rem  *
 rem  * Author: ThinkGem@163.com
 rem  */
 echo.
-echo [信息] 清理生成路径。
+echo [Info] Clearing generated Path.
 echo.
 pause
 echo.
