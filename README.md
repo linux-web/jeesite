@@ -111,6 +111,10 @@ JeeSite 提供了常用工具进行封装，包括日志工具、缓存工具、
 2. 用一段时间提示内存溢出，请修改JVM参数：-Xmx512m -XX:MaxPermSize=256m;
 3. 为什么新建菜单后看不到新建的菜单？因为授权问题，菜单管理只允许最高管理员账号管理（最高管理员默认账号：thinkgem 密码：admin）;
 4. 提示数据表不存在时，需要将oa_notify,oa_notify_record改成大写OA_NOTIFY,OA_NOTIFY_RECORD，将OA_TEST_AUDIT改成小写oa_test_audit，将sys_user复制一份大写SYS_USER数据表。
+5. oracle14可能下载出问题，请在本项目目录下运行部署命令，将lib下面的ojdbc14-10.2.0.4.0.jar包部署到公司私服上：
+```
+mvn deploy:deploy-file -DgroupId=com.oracle -DartifactId=ojdbc14 -Dversion=10.2.0.4.0 -Dpackaging=jar -Dfile=ojdbc14-10.2.0.4.0.jar -DrepositoryId=repo-id -Durl=http://ip:port/nexus/content/repositories/releases
+```
 
 ## 更多文档
 

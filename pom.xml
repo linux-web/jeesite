@@ -825,6 +825,12 @@
 			<id>zxsoft-nexus</id>
 			<url>http://192.168.3.23:18081/nexus/content/groups/public/</url>
 		</repository>
+		<!-- Restlet仓库 -->
+		<repository>
+			<id>maven-restlet</id>
+			<name>Public online Restlet repository</name>
+			<url>http://maven.restlet.org</url>
+		</repository>
 		<repository>
 			<id>oschina-repos</id>
 			<name>Oschina Releases</name>
