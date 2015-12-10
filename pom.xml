@@ -115,7 +115,7 @@
 			<version>${validator.version}</version>
 		</dependency>
 		<!-- SPRING end -->
-		
+
 		<!-- AOP begin -->
 		<dependency>
 			<groupId>org.aspectj</groupId>
@@ -133,7 +133,7 @@
 			<version>3.1</version>
 		</dependency>
 		<!-- AOP end -->
-		
+
 		<!-- PERSISTENCE begin -->
 		<!-- MyBatis -->
 		<dependency>
@@ -724,9 +724,9 @@
 				<version>2.5.1</version>
 			</plugin>
 		</plugins>
-		
+
 		<finalName>${project.artifactId}-${project.version}</finalName>
-		
+
 	</build>
 
 	<profiles>
@@ -821,10 +821,10 @@
 	<!-- 设定主仓库，按设定顺序进行查找。 -->
 	<repositories>
 		<!-- 公司Nexus私服 -->
-        <!--<repository>
+		<repository>
 			<id>zxsoft-nexus</id>
 			<url>http://192.168.3.23:18081/nexus/content/groups/public/</url>
-        </repository>-->
+		</repository>
 		<repository>
 			<id>oschina-repos</id>
 			<name>Oschina Releases</name>
@@ -875,10 +875,10 @@
 	<!-- 设定插件仓库 -->
 	<pluginRepositories>
 		<!-- 公司Nexus私服 -->
-        <!--<pluginRepository>
+		<pluginRepository>
 			<id>zxsoft-nexus</id>
 			<url>http://192.168.3.23:18081/nexus/content/groups/public/</url>
-        </pluginRepository>-->
+		</pluginRepository>
 		<pluginRepository>
 			<id>oschina-repos</id>
 			<name>Oschina Releases</name>

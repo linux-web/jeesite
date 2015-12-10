@@ -101,7 +101,7 @@ JeeSite 提供了常用工具进行封装，包括日志工具、缓存工具、
 1. 具备运行环境：JDK1.6+、Maven3.0+、MySql5+或Oracle10g+。
 2. 修改src\main\resources\jeesite.properties文件中的数据库设置参数。
 3. 根据修改参数创建对应MySql或Oracle数据库用户和参数。
-4. 运行bin\init-db.bat脚本，即可导入表结构及演示数据（linux操作系统：在控制台中切换至项目根目录，运行命令：mvn antrun:run -Pinit-db，需要在数据表创建的时候执行更改）
+4. 运行bin\init-db.bat脚本，即可导入表结构及演示数据（linux操作系统：在控制台中切换至项目根目录，运行命令：mvn clean antrun:run -Pinit-db，需要在数据表创建的时候执行更改）
 5. 运行bin\run-tomcat7.sh[.bat]或bin\run-jetty.sh[.bat]，启动Web服务器（第一次运行，需要下载依赖jar包，请耐心等待）。
 6. 在浏览器中访问：http://localhost:8181/jeesite，最高管理员账号，用户名：thinkgem 密码：admin
 
